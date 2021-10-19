@@ -32,7 +32,6 @@ $(function(){
 $(function(){
   $('.people').change(function(){
     var p = $('option:selected').val();
-    alert('p='+ p);
     $('.table').removeClass('select');
     if(p=='5'){
       $('.table05').addClass('select');
