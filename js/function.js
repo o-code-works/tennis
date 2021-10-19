@@ -43,6 +43,10 @@ $(function(){
       $('.table08').addClass('select');
     }else if(p=='9'){
       $('.table09').addClass('select');
+    }else if(p=='10'){
+      $('.table10').addClass('select');
+    }else if(p=='11'){
+      $('.table11').addClass('select');
     }else{
     }
   })
